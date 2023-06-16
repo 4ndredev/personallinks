@@ -24,9 +24,9 @@ Este é um projeto HTML básico que exibe links para várias redes sociais. O pr
 
 ## Screenshots
 
-![Modo claro](./Assets/light-mode.png)
+![Modo claro](./Assets/light1.png)
 
-![Modo escuro](./Assets/dark-mode.png)
+![Modo escuro](./Assets/dark1.png)
 
 ## Agradecimentos
 
