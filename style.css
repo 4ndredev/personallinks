@@ -6,22 +6,22 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(./Assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(./Assets/moon-stars.png.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: url(./Assets/bg-mobilel.png.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./Assets/sun.png.svg);
 }
 
 body {
@@ -78,11 +78,11 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2s;
+  animation: slide-back 1s;
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;
+  animation: slide-in 1s forwards;
 }
 
 #switch button:hover {
@@ -128,7 +128,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  transition: background 0.2s;
+  transition: background 2.0s;
 }
 
 /* pseudo-selector */
@@ -144,7 +144,7 @@ ul li a:hover {
 
   padding: 24px 0;
 
-  font-size: 24px;
+  font-size: 45px;
 }
 
 #social-links a {
@@ -153,7 +153,7 @@ ul li a:hover {
   justify-content: center;
   padding: 16px;
 
-  transition: background 0.2s;
+  transition: background 2.0s;
   border-radius: 50%;
 }
 
@@ -165,16 +165,17 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+  bottom: 40px;
 }
 
 /* media queries */
-@media (min-width: 700px) {
+@media (min-width: 100px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(Assets/dark-mode.png);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(Assets/light-mode.png);
   }
 }
 
@@ -196,4 +197,3 @@ footer {
     left: 0;
   }
 }
-
